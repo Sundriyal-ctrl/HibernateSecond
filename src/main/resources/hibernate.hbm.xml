@@ -1,0 +1,19 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!-- com.geeksforgeeks.GeekUserDetails
+       is the name of the java class
+        GeekUserDetails is the name of the table -->
+    <class name="com.Movies" table="Movies_All">
+        <id name="mid" type="int" column="movie_id">
+            <generator class="assigned"/>
+        </id>
+        <property name="name">
+            <column name="Movie_name"/>
+        </property>
+
+    </class>
+</hibernate-mapping>

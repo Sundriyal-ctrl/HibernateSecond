@@ -1,0 +1,9 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©ýÚÒ
+`
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "session".(´Ï‚‘ùÿÿÿÿ
+G
+java:S1481",Remove this unused "session" local variable.(´Ï‚‘ùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ŸÆµÆ
